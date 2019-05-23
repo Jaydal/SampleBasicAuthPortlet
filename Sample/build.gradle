@@ -1,0 +1,13 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.util.taglib"
+	compileOnly group: "javax.portlet", name: "portlet-api"
+	compileOnly group: "javax.servlet", name: "javax.servlet-api"
+	compileOnly group: "jstl", name: "jstl"
+	compileOnly group: "org.osgi", name: "osgi.cmpn"
+	compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.3.6'
+	compile group: 'org.json', name: 'json', version: '20180813'
+	compile group: 'org.apache.httpcomponents', name: 'httpmime', version: '4.5.8'
+	compile group: 'org.apache.httpcomponents', name: 'httpasyncclient', version: '4.1.4'
+	compile group: 'com.mashape.unirest', name: 'unirest-java', version: '1.4.9'
+}
